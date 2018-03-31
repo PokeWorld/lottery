@@ -51,6 +51,12 @@
     <Compile Include="launcher.Designer.cs">
       <DependentUpon>launcher.cs</DependentUpon>
     </Compile>
+    <Compile Include="qwick_antiwirus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qwick_antiwirus.Designer.cs">
+      <DependentUpon>qwick_antiwirus.cs</DependentUpon>
+    </Compile>
     <Compile Include="ultrabillions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="qwick_antiwirus.resx">
+      <DependentUpon>qwick_antiwirus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ultrabillions.resx">
       <DependentUpon>ultrabillions.cs</DependentUpon>
     </EmbeddedResource>

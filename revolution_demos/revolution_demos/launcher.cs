@@ -33,5 +33,16 @@ namespace revolution_demos
             lblAppTitleDisplay.Text = "";
             lblAppDesc.Text = "";
         }
+
+        private void btnQwickAntiwirus_MouseHover(object sender, EventArgs e)
+        {
+            lblAppTitleDisplay.Text = "Qwick Antiwirus";
+            lblAppDesc.Text = "This application will be installed on your server if you get exploited\n by another network. It will also slow your network down.";
+        }
+
+        private void btnQwickAntiwirus_Click(object sender, EventArgs e)
+        {
+            new qwick_antiwirus().Show();
+        }
     }
 }

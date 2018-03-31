@@ -34,6 +34,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblAppTitleDisplay = new System.Windows.Forms.Label();
             this.lblAppDesc = new System.Windows.Forms.Label();
+            this.btnQwickAntiwirus = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,11 +99,25 @@
             this.lblAppDesc.Size = new System.Drawing.Size(0, 16);
             this.lblAppDesc.TabIndex = 1;
             // 
+            // btnQwickAntiwirus
+            // 
+            this.btnQwickAntiwirus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQwickAntiwirus.Font = new System.Drawing.Font("Lucida Console", 10F);
+            this.btnQwickAntiwirus.Location = new System.Drawing.Point(154, 59);
+            this.btnQwickAntiwirus.Name = "btnQwickAntiwirus";
+            this.btnQwickAntiwirus.Size = new System.Drawing.Size(153, 23);
+            this.btnQwickAntiwirus.TabIndex = 4;
+            this.btnQwickAntiwirus.Text = "Qwick Antiwirus";
+            this.btnQwickAntiwirus.UseVisualStyleBackColor = true;
+            this.btnQwickAntiwirus.Click += new System.EventHandler(this.btnQwickAntiwirus_Click);
+            this.btnQwickAntiwirus.MouseHover += new System.EventHandler(this.btnQwickAntiwirus_MouseHover);
+            // 
             // launcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnQwickAntiwirus);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnUltraBillions);
             this.Controls.Add(this.label2);
@@ -125,5 +140,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblAppTitleDisplay;
         private System.Windows.Forms.Label lblAppDesc;
+        private System.Windows.Forms.Button btnQwickAntiwirus;
     }
 }
